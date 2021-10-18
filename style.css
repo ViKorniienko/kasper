@@ -1,0 +1,56 @@
+body, h1 {
+  margin: 0;
+  background-color: #121116;
+  color: white;
+}
+
+h1 {margin: 0;
+
+}
+.columns {
+  display: flex;
+  justify-content: space-between;
+  margin:auto;
+  width: 1170px;
+  gap: 30px;
+}
+
+.column {
+  width: 70px;
+  height: 100vh;
+  background: #2a252b;
+
+}
+
+.kasper {
+  display: flex;
+  justify-content: space-between;
+  width: 1170;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  align-items: center;
+  margin-top: 0px;
+
+
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  font-family: open sans;
+  font-size: 20px;
+  font-weight: normal;
+
+}
+
+.fb {
+  margin-left: 350px;
+}
+.no__decoration {
+  text-decoration: none;
+  color: black;
+}
