@@ -4,11 +4,25 @@ body, h1 {
   color: white;
 }
 
-h1 {margin: 0;
+.h {
+  margin-top: auto;
+}
+
+.img  {
+  display: flex;
+  align-items: center;
+  margin: auto;
+
 
 }
+
+
+ul {
+  list-style: none;
+  
+}
 .columns {
-  display: flex;
+  display: none;
   justify-content: space-between;
   margin:auto;
   width: 1170px;
@@ -22,18 +36,17 @@ h1 {margin: 0;
 
 }
 
-.kasper {
+.top {
   display: flex;
   justify-content: space-between;
-  width: 1170;
+  width: 1170px;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  margin-top: 20px;
-  align-items: center;
-  margin-top: 0px;
+  margin: auto;
+
 
 
 }
