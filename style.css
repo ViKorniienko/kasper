@@ -54,11 +54,15 @@ ul {
 }
 
 .title {
-  display: flex;
   align-items: center;
   font-family: open sans;
   font-size: 20px;
   font-weight: normal;
+  text-rendering: auto;
+  text-align: center;
+  margin-top: 45px;
+  letter-spacing: 1px;
+  margin-right: 5px;
 
 }
 
