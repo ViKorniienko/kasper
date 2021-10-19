@@ -12,7 +12,10 @@ img {
 }
 
 ul  {
-  list-style: none; 
+  list-style: none;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
 }
 
 .columns {
@@ -37,16 +40,17 @@ ul  {
 
 .title {
   display: flex;
+  justify-content: center;
   font-family: open sans;
   font-size: 20px;
   font-weight: 100;
   text-align: center;
   letter-spacing: 1px;
   margin-top: 45px;
-margin-left: 883px;
 }
 
 #line {
+  margin: auto;
   margin-top: 15px;
 
 }
@@ -54,8 +58,9 @@ margin-left: 883px;
 .icons {
   display: flex;
   justify-content: center;
-
+  margin-top: auto;
 }
+
 .footer {
   display: flex;
   font-family: open sans;
@@ -64,7 +69,7 @@ margin-left: 883px;
   font-weight: 100;
   letter-spacing: 0.3px;
   white-space: pre;
-  margin-left: 840px;
+  justify-content: center;
 }
 
 
