@@ -1,5 +1,5 @@
 body, h1 {
-  margin: 0;
+  margin: auto;
   background-color: #121116;
   color: white;
 }
@@ -8,8 +8,8 @@ img  {
   display: flex;
   align-items: center;
   margin: auto;
-  margin-top: 115px;
-  margin-left: 700px;
+  margin-top: 120px;
+  margin-left: 900px;
 }
 
 ul {
@@ -44,17 +44,19 @@ ul {
   text-align: center;
   letter-spacing: 1px;
   margin-top: 43px;
-  margin-left: 683px;
+  margin-left: 884px;
 }
 
 #line {
   margin-top: 15px;
-  margin-left: 645px;
+  margin-left: 845px;
 }
 
 .icons {
   display: flex;
   justify-content:center;
+  align-items: center;
+  margin-top: auto;
 }
 .footer {
   display: flex;
@@ -62,9 +64,8 @@ ul {
   text-align: center;
   font-size: 15px;
   font-weight: 100;
-  margin-top: 43px;
-  margin-left: 683px;
-  letter-spacing: 1px;
+  margin-left: 837px;
+  letter-spacing: 0.3px;
   white-space: pre;
   margin-top: auto;
 }
