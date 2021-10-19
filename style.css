@@ -4,11 +4,11 @@ body, h1 {
   color: white;
 }
 
-img {
+.logo {
   display: flex;
   align-items: center;
-  margin: auto;   
-  margin-top: 120px;
+  margin-top: 125px;
+  justify-content: center; 
 }
 
 ul  {
@@ -50,15 +50,20 @@ ul  {
 }
 
 #line {
+  display: flex;
   margin: auto;
   margin-top: 15px;
+  align-items: center; 
+  justify-content: center;
 
 }
 
 .icons {
   display: flex;
   justify-content: center;
-  margin-top: auto;
+  align-items: center;
+  margin-top: 55px;
+  margin: auto;
 }
 
 .footer {
@@ -70,6 +75,8 @@ ul  {
   letter-spacing: 0.3px;
   white-space: pre;
   justify-content: center;
+  margin: auto;
+  margin-top: auto;
 }
 
 
