@@ -16,6 +16,7 @@ ul  {
   display: flex;
   align-items: center; 
   justify-content: center;
+  padding: 0;
 }
 
 .columns {
@@ -32,12 +33,6 @@ ul  {
   background: #2a252b;
 }
 
-.top {
-  display: flex;
-  justify-content: space-between;
-  width: 1170px;
-}
-
 .title {
   display: flex;
   justify-content: center;
@@ -49,21 +44,17 @@ ul  {
   margin-top: 45px;
 }
 
-#line {
-  display: flex;
-  margin: auto;
-  margin-top: 15px;
-  align-items: center; 
-  justify-content: center;
-
+hr {
+  border: none;
+  border-top: 2px solid white;
+  width: 12%;
 }
 
 .icons {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 55px;
-  margin: auto;
+  gap: 30px;
 }
 
 .footer {
@@ -72,12 +63,13 @@ ul  {
   text-align: center;
   font-size: 15px;
   font-weight: 100;
-  letter-spacing: 0.3px;
-  white-space: pre;
   justify-content: center;
-  margin: auto;
-  margin-top: auto;
+  margin-top: 85px;
+  gap: 5px;
 }
 
-
+a {
+  text-decoration: none;
+  color: aqua;
+}
 
